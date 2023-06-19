@@ -100,7 +100,7 @@
   box-sizing: border-box;
   font-family: var(--calSans-font);
 
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 p {
   font-family: var(--satoshiRegular-font);
