@@ -3,7 +3,9 @@ const inter = Inter({ subsets: ["latin"] });
 import Navbar from "@/components/Navbar";
 import LandingPage from "@/components/LandingPage";
 import Experiences from "@/components/experiences";
+import Footer from "@/components/Footer";
 import Working from "@/components/working";
+
 export default function Home() {
   return (
     <div className="flex flex-col gap-5 h-full my-bg">
@@ -13,6 +15,7 @@ export default function Home() {
       </div>
       <Experiences />
       <Working />
-    </div>
+      <Footer />
+  </div>
   );
 }
