@@ -7,7 +7,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import SwiperCore, { Navigation } from "swiper";
+import { Autoplay } from "swiper";
 
+SwiperCore.use([Autoplay]);
 SwiperCore.use([Navigation]);
 const data = [
   {
@@ -55,6 +57,10 @@ export default function Swip() {
         navigation={true}
         slidesPerView={numSlides}
         loop={true}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: true,
+        }}
         className="mySwiper"
       >
         {swipElements}

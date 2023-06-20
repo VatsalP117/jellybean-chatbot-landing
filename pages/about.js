@@ -1,9 +1,9 @@
 import Navbar from "@/components/Navbar";
 export default function about() {
   return (
-    <section className="relative h-screen myclass2 text-white">
+    <section className="relative h-screen myclass2 text-white border-solid">
       <Navbar />
-      <div className=" container flex flex-col gap-12 justify-right">
+      <div className="container flex flex-col gap-12 justify-right pb-20">
         <p className=" font-bold text-5xl pt-40 font-sans">Goodscenes</p>
         <p className="text-xl z-10">
           Goodscenes is your ultimate WhatsApp Concierge for elevating team
