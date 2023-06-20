@@ -142,3 +142,15 @@ body {
   text-align: center;
   font-size: 18px;
 }
+.wine {
+  background-image: url("../public/wine.jpg");
+}
+.vr {
+  background-image: url("../public/vr.jpg");
+}
+.sushi {
+  background-image: url("../public/sushi.png");
+}
+.culinary {
+  background-image: url("../public/culinary.jpg");
+}

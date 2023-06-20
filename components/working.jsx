@@ -1,5 +1,6 @@
 import Card from "./card";
 import i1 from "/public/image-01-new.png";
+import i2 from "/public/image-02-new.png";
 import i3 from "/public/image-03.png";
 import i4 from "/public/image-04.png";
 export default function Working() {
@@ -12,7 +13,7 @@ export default function Working() {
     {
       title: "Utilize Managerial Discretionary Budget",
       body: "Make a lasting impression with carefully planned experiences within your budget. (All invoices stored at one place)",
-      imgSrc: i3,
+      imgSrc: i2,
     },
     {
       title: "Effortless Booking",

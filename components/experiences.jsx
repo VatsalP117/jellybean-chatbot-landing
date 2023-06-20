@@ -1,5 +1,6 @@
 import Swip from "./swip";
 import ImageCard from "./image-card";
+
 export default function Experiences() {
   return (
     <div className="  flex flex-col h-full px-8 md:px-16 mb-32 md:mb-56 -mt-20 md:-mt-12">
