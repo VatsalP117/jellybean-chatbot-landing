@@ -13,7 +13,11 @@ export default function Navbar() {
           alt="logo"
           width={150}
           height={120}
-          onClick={() => router.push("/")}
+          onClick={(e) => {
+            e.preventDefault();
+            console.log("clicked");
+            router.push("/");
+          }}
         />
 
         <a
