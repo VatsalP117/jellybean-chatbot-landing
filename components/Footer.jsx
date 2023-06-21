@@ -4,7 +4,7 @@ import logo from "/public/logo.png";
 export default function Footer() {
   return (
     <section className="relative h-400 text-white pt-20 pb-20 bg-black">
-      <div className=" flex flex-row md:gap-40 justify-evenly md:text-lg text-sm ">
+      <div className=" flex flex-row md:gap-40 gap-10 justify-around px-5 md:text-sm text-xs ">
         <div className=" flex flex-col justi">
           <Image
             className="pt-2"
@@ -16,7 +16,12 @@ export default function Footer() {
           <p className=" text-lg font-bold">JellyBeans</p>
         </div>
         <div className=" flex flex-col my-auto">
-          <p>Address</p>
+          <div className="flex flex-row gap-2 items-center">
+            <p>Address</p>
+            <p className="text-xs md:text-sm ">
+              A-305 Divya MSR Gateway,Banglore
+            </p>
+          </div>
 
           <p>Contact no.</p>
 
